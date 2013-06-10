@@ -25,7 +25,15 @@ body{
     border-radius: 0 0 10px 10px;
 }
 #main-content-container{
-    height:100%;
+    margin-top: 50px;
+}
+
+#title {
+    text-align:center;
+}
+
+#logo {
+    width: 100%;
 }
 
 #footer {
@@ -39,7 +47,7 @@ body{
 #footer .container div {
     color: #999999;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-    height:3em;
+    height:2em;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 0.5em;
 }
