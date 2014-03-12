@@ -4,6 +4,98 @@ html {
 body{
     background-color: white;
     height:100%;
+    text-align:justify;
+}
+header {
+    margin-top:40px;
+    width: 100%;
+    height: 40%;
+    max-height: 225px;
+    min-height: 150px;
+    margin-bottom: 1rem;
+    text-align: center;
+    background-size: cover;
+}
+
+header #header-content {
+    min-height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    height: 100px;
+    background: #ccc;
+    padding-top: 30px;
+    width: 100%;
+}
+
+footer .copyright {
+    text-align: center;
+}
+
+#main-content-container {
+    min-height: 600px;
+}
+
+#blog-title-container {
+    vertical-align: middle;
+    display: inline-block;
+    padding-left:30px;
+    max-width: 450px;
+}
+
+#blog-title-container h2 {
+    margin: 0;
+    font-size: 1.8rem;
+    line-height: 1em;
+    letter-spacing: 0;
+}
+
+#blog-logo {
+}
+
+@media  screen and (max-width: 980px)  {
+    header #header-content {  
+        display:block;
+    }
+}
+
+#posts a.link-to-post {
+    color: #333;
+    text-decoration: none;
+}
+
+#posts a.link-to-post:hover{
+    color: #08c;
+}
+
+
+
+.author {
+  float: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+}
+
+.author .author-data {
+    display:inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.author .author-data .gplus,
+.author .author-data .twitter  {
+    color: #f44;
+}
+
+.centered {
+    text-align: center;
 }
 /*
 #page {
@@ -12,7 +104,6 @@ body{
     height: 100%;
     margin: 0 auto -3em;
 }
-*/
 #header {
     margin-top:40px;
 }
@@ -51,3 +142,4 @@ body{
     text-align: center;
     padding-top: 0.5em;
 }
+*/

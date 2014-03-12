@@ -1,2 +1,21 @@
-name: Your New Jekyll Site
+name: BreizhBeans
+description: Developer community from the westernmost corner of mainland France
 pygments: true
+
+authors:
+  horacio:
+    display_name: Horacio Gonzalez
+    gravatar: 97583a8c8a78c58ff8d2ff2bada754d7
+    email: horacio.gonzalez@gmail.com
+    web: http://lostinbrittany.com/
+    twitter: LostInBrittany
+    github: LostInBrittany
+    gplus: +LostInBrittany
+  seb:
+    display_name: Sébastien Lambour
+    gravatar: 8d5d13d525423f114bb307f664ba5bbc
+    email: sebastien.lambour@gmail.com
+    web: http://www.breizhbeans.org/
+    twitter: FinistSeb
+    github: slambour
+    gplus: +SébastienLambour29
